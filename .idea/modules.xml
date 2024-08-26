@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/HW02/HW02.iml" filepath="$PROJECT_DIR$/HW02/HW02.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW01/Tests/Tests.iml" filepath="$PROJECT_DIR$/HW01/Tests/Tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cs101.iml" filepath="$PROJECT_DIR$/.idea/cs101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classwork/src/src.iml" filepath="$PROJECT_DIR$/Classwork/src/src.iml" />
     </modules>
   </component>
 </project>
