@@ -1,4 +1,4 @@
-package HW;
+package HW02.src.Solutions;
 
 public class Main {
     public static void main(String[] args) {

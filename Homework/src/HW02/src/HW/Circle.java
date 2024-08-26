@@ -1,4 +1,4 @@
-package HW;
+package HW02.src.HW;
 
 public class Circle {
 

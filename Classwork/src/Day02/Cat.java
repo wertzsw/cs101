@@ -6,13 +6,13 @@ public class Cat {
     private int speed;
     private String name;
 
-
     public Cat(String color, int w, int s, String name){
         this.color = color;
         this.weight = w;
         this.speed = s;
         this.name = name;
     }
+
     public void eatFood(int foodWeight){
         this.weight = this.weight + foodWeight;
     }
@@ -25,5 +25,4 @@ public class Cat {
     public int getWeight(){
         return this.weight;
     }
-
 }

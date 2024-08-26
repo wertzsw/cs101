@@ -1,11 +1,8 @@
-package Tests;
+package HW02.src.Tests;
 
-import HW.Rectangle;
-import HW.Circle;
+import HW02.src.HW.Rectangle;
+import HW02.src.HW.Circle;
 import org.junit.*;
-
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
 
 
 public class Test01 {

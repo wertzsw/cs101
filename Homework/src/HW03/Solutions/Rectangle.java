@@ -1,4 +1,4 @@
-package Solutions;
+package HW03.Solutions;
 
 public class Rectangle {
     private int width;
@@ -20,6 +20,21 @@ public class Rectangle {
         this.width = 2*this.width;
         this.length = 2*this.length;
     }
+
+    /*
+    TODO: Write a method isBigger(Rectangle otherRect) that takes in a Rectangle
+    TODO: and returns true if the area of this rectangle is bigger than
+    TODO: the area of otherRect.
+     */
+    public boolean isBigger(Rectangle otherRect){
+        if(this.getArea() > otherRect.getArea()){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
     public void printInfo(){
         System.out.println("This is a " + this.length + " by " + this.width + " rectangle with area " + this.getArea() + " and perimeter " + this.getPerimeter());
     }
