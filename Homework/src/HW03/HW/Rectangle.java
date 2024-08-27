@@ -27,7 +27,7 @@ public class Rectangle {
     TODO: the area of otherRect.
      */
     public boolean isBigger(Rectangle otherRect){
-        return false;
+        return this.getArea() > otherRect.getArea();
     }
 
     public void printInfo(){

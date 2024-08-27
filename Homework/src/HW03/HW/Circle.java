@@ -26,10 +26,11 @@ public class Circle {
     TODO: the circumference of otherCircle.
      */
     public boolean isLonger(Circle otherCircle){
-        return false;
-    }
+        return this.getCircumference() > otherCircle.getCircumference();
 
-    public void printInfo(){
+
+    }
+    public void printInfo() {
         System.out.println("This is a circle of radius " + this.radius + " with area " + this.getArea() + " and circumference " + this.getCircumference());
     }
 }
